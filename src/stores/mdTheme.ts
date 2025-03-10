@@ -14,8 +14,8 @@ const isDark = useDark({
 export type PreviewTheme = "default" | "github" | "vuepress" | "mk-cute" | "smart-blue" | "cyanosis";
 export type CodeTheme = "atom" | "a11y" | "github" | "gradient" | "kimbie" | "paraiso" | "qtcreator" | "stackoverflow";
 
-const localPreviewTheme = _getLocalItem("previewTheme") || 'default';
-const localCodeTheme = _getLocalItem("codeTheme") || 'gradient';
+const localPreviewTheme = _getLocalItem("previewTheme") || 'cyanosis';
+const localCodeTheme = _getLocalItem("codeTheme") || 'kimble';
 
 export const staticData = defineStore("staticData", {
   // 数据存到store里刷新页面会重置，持久化就不会了

@@ -1,4 +1,4 @@
-const __vite__fileDeps=["assets/Home-DPDGe-YO.js","assets/Home-B3uce-IH.css","assets/index-CDyQg6Ad.js","assets/index-RqV5S_w9.js","assets/index-B5xTvNIK.css","assets/index-p_Pu7ptt.js","assets/el-button-C0pa3e_7.js","assets/el-button-BYZ0R81o.css","assets/index-C933y1C6.css","assets/index-CywfHYXB.js","assets/index-B4S_LPH_.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+const __vite__fileDeps=["assets/Home-DJ1w3qfI.js","assets/Home-B3uce-IH.css","assets/index-DatgUEzg.js","assets/index-CfH3T1Tz.js","assets/index-B5xTvNIK.css","assets/index-CRJ4utJn.js","assets/el-button-D5yFGO9T.js","assets/el-button-BYZ0R81o.css","assets/index-C933y1C6.css","assets/index-Dumv2jlJ.js","assets/index-B4S_LPH_.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
 var __defProp = Object.defineProperty;
 var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
 var __publicField = (obj, key, value) => {
@@ -28984,7 +28984,7 @@ const routes = [
   {
     path: "/",
     name: "home",
-    component: () => __vitePreload(() => import("./Home-DPDGe-YO.js"), true ? __vite__mapDeps([0,1]) : void 0),
+    component: () => __vitePreload(() => import("./Home-DJ1w3qfI.js"), true ? __vite__mapDeps([0,1]) : void 0),
     meta: { title: "首页" }
   },
   {
@@ -28995,31 +28995,31 @@ const routes = [
       {
         path: "/selected",
         name: "selected",
-        component: () => __vitePreload(() => import("./index-CDyQg6Ad.js"), true ? __vite__mapDeps([2,3,4]) : void 0),
+        component: () => __vitePreload(() => import("./index-DatgUEzg.js"), true ? __vite__mapDeps([2,3,4]) : void 0),
         meta: { title: "精选" }
       },
       {
         path: "/technology",
         name: "technology",
-        component: () => __vitePreload(() => import("./index-CDyQg6Ad.js"), true ? __vite__mapDeps([2,3,4]) : void 0),
+        component: () => __vitePreload(() => import("./index-DatgUEzg.js"), true ? __vite__mapDeps([2,3,4]) : void 0),
         meta: { title: "技术" }
       },
       {
         path: "/life",
         name: "life",
-        component: () => __vitePreload(() => import("./index-CDyQg6Ad.js"), true ? __vite__mapDeps([2,3,4]) : void 0),
+        component: () => __vitePreload(() => import("./index-DatgUEzg.js"), true ? __vite__mapDeps([2,3,4]) : void 0),
         meta: { title: "生活" }
       },
       {
         path: "/question",
         name: "question",
-        component: () => __vitePreload(() => import("./index-CDyQg6Ad.js"), true ? __vite__mapDeps([2,3,4]) : void 0),
+        component: () => __vitePreload(() => import("./index-DatgUEzg.js"), true ? __vite__mapDeps([2,3,4]) : void 0),
         meta: { title: "问答" }
       },
       {
         path: "/remark",
         name: "remark",
-        component: () => __vitePreload(() => import("./index-p_Pu7ptt.js"), true ? __vite__mapDeps([5,6,7,8]) : void 0),
+        component: () => __vitePreload(() => import("./index-CRJ4utJn.js"), true ? __vite__mapDeps([5,6,7,8]) : void 0),
         meta: { title: "其他" }
       }
     ]
@@ -29027,7 +29027,7 @@ const routes = [
   {
     path: "/detail",
     name: "detail",
-    component: () => __vitePreload(() => import("./index-CywfHYXB.js"), true ? __vite__mapDeps([9,6,7,3,10]) : void 0),
+    component: () => __vitePreload(() => import("./index-Dumv2jlJ.js"), true ? __vite__mapDeps([9,6,7,3,10]) : void 0),
     meta: { title: "详情" }
   },
   {
